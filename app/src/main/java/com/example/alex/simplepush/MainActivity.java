@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity  {
                 {
                     testObject.put("mod", "off");
                     lightOn.setText("Aprinde bec");
-                    mod=1;
+                    mod=0;
                 }
                 testObject.saveInBackground();
 
